@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+}
+input{
+
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 0px solid #ccc;
+    /* border-radius: 10px; */
+    box-sizing: border-box;
+    background-color: rgba(204, 204, 204, 0);
+    color: white;
+    border-bottom: 1px solid white;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+.navBrand{
+    font: normal 36px Cookie, cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+
+}
+.btn:hover{
+    background-color: #f05f40;
+    color: white;
+
+}
+.error{
+    color: black;
+    font-size: 12px;
+    text-align: left;
+}
